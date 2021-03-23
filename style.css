@@ -1,0 +1,23 @@
+canvas{
+    border: 7px solid ;
+    border-color: cadetblue;
+    border-radius: 10px;
+    margin-top:25px;
+    animation-name: borderColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+button{
+    margin-top:550px;
+}
+
+@keyframes borderColor{
+    0%{
+        border-color: cadetblue;
+    }
+
+    100%{
+        border-color: crimson;
+    }
+}
